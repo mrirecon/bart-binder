@@ -2,9 +2,7 @@
 pip install bash_kernel 
 python -m bash_kernel.install
 
-VERSION=master
-wget https://github.com/mrirecon/bart/archive/${VERSION}.tar.gz
-tar xvzf ${VERSION}.tar.gz
-cd bart-${VERSION}
+git clone https://github.com/mrirecon/bart/
+cd bart
 PARALLEL=1 make
 
