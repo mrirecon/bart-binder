@@ -1,3 +1,9 @@
 #!/bin/bash
 pip install bash_kernel 
 python -m bash_kernel.install
+
+wget https://github.com/mrirecon/bart/archive/v0.4.04.tar.gz
+tar xvzf v0.4.04.tar.gz
+cd bart-0.4.04
+PARALLEL=1 make
+
