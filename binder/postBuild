@@ -5,4 +5,10 @@ python -m bash_kernel.install
 git clone https://github.com/mrirecon/bart/
 cd bart
 PARALLEL=1 make
+. startup.sh
+cd ..
+
+git clone https://github.com/mrirecon/view/
+cd view
+make
 
