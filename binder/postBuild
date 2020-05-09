@@ -9,6 +9,10 @@ PARALLEL=1 make
 cd ..
 
 
+mkdir -p $HOME/.jupyter/
+mv jupyter_notebook_config.py $HOME/.jupyter/
+
+
 pip install jupyter_server_proxy
 jupyter serverextension enable --py jupyter_server_proxy
 
