@@ -8,6 +8,11 @@ PARALLEL=1 make
 . startup.sh
 cd ..
 
+
+pip install jupyter_server_proxy
+jupyter serverextension enable --py jupyter_server_proxy
+
+
 git clone https://github.com/mrirecon/view/
 cd view
 make
