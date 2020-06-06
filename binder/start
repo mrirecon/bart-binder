@@ -2,4 +2,8 @@
 cd bart
 . startup.sh
 cd ..
+
+export GDK_DISPLAY=broadway
+export BROADWAY_DISPLAY=:11
+
 exec "$@"
