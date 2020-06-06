@@ -1,7 +1,7 @@
 
 c.ServerProxy.servers = {
-  'broadway': {
-      'command': ['broadwayd', '-p', '{port}', ':11']
+  'xpra': {
+      'command': ['xpra', 'start', ':11', '--bind-tcp=0.0.0.0:{port}', '--html=on']
   }
 }
 
