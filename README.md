@@ -19,5 +19,5 @@ Example (0.8.00):
 
 # bart on Google collab
 
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mrirecon/bart-binder/blob/master/bart_collab.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mrirecon/bart-binder/blob/master/bart_colab.ipynb)
 
